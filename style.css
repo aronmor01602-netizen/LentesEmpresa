@@ -1,0 +1,171 @@
+	.body{margin: 0}
+	.cubos{
+		width: 100%;
+		background: #FCF2F2;
+		margin: auto;
+    }
+    .menu{ 
+    	float: right;
+    }
+    .menu li{
+    	display: inline-block;
+    }
+    .menu a{
+    	color: black;
+    	text-decoration: none;
+    	padding: 15px;
+    }
+    .menu a:hover {
+    	background: #E18181;
+    }
+    .pro{
+    	width: 300px;
+    	display: inline-block;
+    	vertical-align: top;
+    	margin: 50px;
+    	text-align: justify;
+    }
+    .pro h3{ text-align:center; }
+   
+    .listas{
+    	text-align: center;
+    }
+
+    .listas h1{
+        text-align: center;
+    }
+
+   .pro h2{ color: #9C2307; text-align: center;
+   }
+
+    .imagen-inicio{
+        background: url(raybanmetag.jpg);
+        background-size:cover;
+        background-position:center;
+        height:810px;
+        width: 1500px;
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+       align-items:center;
+      color:white;
+      text-align:center;
+    }
+
+    .imagen-inicio a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .datos{
+    display: flex;        
+    align-items: center;    
+    gap: 40px;              
+    padding: 40px 200px;
+    }
+   
+   .datos img{
+    width: 490px;
+    height: auto;
+    }
+
+   .datos div{
+    max-width: 600px;
+    }
+    
+    .datos p{
+    	text-align: justify;
+    }
+    
+    .footer{ 
+    	background:#E18181; 
+    	text-align: center; 
+    	overflow: hidden;
+    }
+
+    .Presentacion{
+        display: flex;        
+        align-items: center;    
+        gap: 40px;              
+        padding: 40px 200px;
+    }
+
+    .Presentacion img{
+        width: 350px;
+        height: auto;
+    }
+
+    .Presentacion p{
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .obj{
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 40px;
+        text-align: center;
+    }
+
+    .obj h1{
+        text-align: center;
+    }
+
+
+    .con {
+        display: flex;
+        justify-content: center;
+    }
+
+    .t p{ 
+        font-size: 18px;
+     }
+
+     .Int {
+        text-align: center;
+        width: 900px;
+        margin: 40px auto;
+    }
+
+    .Int h2 {
+        color: black; 
+        text-align: center;
+    }
+
+    .Lentes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.V{
+    width: 300px;
+    margin: 50px;
+    text-align: center;
+}
+
+.V h2{
+    color: #9C2307;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+ .ray{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car{
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+}
+
+.car h3{
+    color: #9C2307;
